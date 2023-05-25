@@ -594,7 +594,7 @@ ul li {
 }
 
 .kf-center {
-    background: url('../static/kfzz/2235.png') center no-repeat;
+    background: url('https://s2.loli.net/2023/05/25/yqLS2nkNTjICHXv.png') center no-repeat;
     background-position: top;
     width: 100%;
     min-height: 1260px;
@@ -704,7 +704,7 @@ ul li {
 }
 
 .kf-dt {
-    background: url("../static/sdzwqkl/mapBackground.jpg") center no-repeat;
+    background: url("https://s2.loli.net/2023/05/25/V3CDJMI1TZ4Ki8Y.jpg") center no-repeat;
     background-size: 100% 100%;
     min-height: 710px;
     min-width: 1080px;
@@ -1651,6 +1651,7 @@ ul li {
 .kf-w230 {
     width: 230px !important;
 }
+
 .kf-w310 {
     width: 310px !important;
 }
@@ -1663,10 +1664,12 @@ ul li {
     width: 130px !important;
 
 }
+
 .kf-w165 {
     width: 165px !important;
 
 }
+
 .kf-mr15 {
     margin-right: 15px;
 }
