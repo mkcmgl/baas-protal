@@ -1,0 +1,14 @@
+/** 整体相关 **/
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}

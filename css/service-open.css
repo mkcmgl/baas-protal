@@ -1,0 +1,241 @@
+html,
+body {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 100%;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* style  */
+
+.drop-down-outer {
+    height: 40px;
+}
+
+.service-open-outer {
+    width: 100%;
+    height: calc(100% - 542px);
+    min-height: 680px;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.service-open-inner {
+    width: 80%;
+    min-width: 1220px;
+    min-height: 600px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+
+.so-return a {
+    color: #333;
+    font-size: 16px;
+}
+
+.so-tabs {
+    margin-top: 60px;
+}
+
+.so-tab-item {
+    margin: 0 10%;
+    padding: 0 8px 18px;
+    border-radius: 4px;
+}
+
+.so-tab-item.active {
+    border-bottom: 10px solid #e6e4e4;
+}
+
+.so-tab-item img {
+    width: 80px;
+}
+
+.so-tab-item span {
+    color: #333;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.so-contents {
+    padding: 0 10%;
+    margin-top: 40px;
+}
+
+.so-content-item .des {
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+}
+
+.so-btn {
+    width: 86px;
+    height: 40px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #389bd9;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.so-contents-inner {
+    margin-bottom: 80px;
+}
+
+.so-protocol {
+    font-size: 14px;
+    justify-content: flex-start;
+    margin-top: 16px;
+}
+
+.so-protocol input {
+    margin-left: 0;
+}
+
+.so-protocol label {
+    margin-left: 4px;
+}
+
+.protocol-link {
+    color: #007aff;
+}
+
+.product-num {
+    font-size: 14px;
+    justify-content: flex-start;
+}
+
+.product-num label {
+    margin-right: 30px;
+}
+
+.product-num span,
+.product-num input {
+    padding: 0;
+    margin: 0;
+}
+
+.product-num span {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e6e4e4;
+    box-sizing: border-box;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.product-num input {
+    width: 40px;
+    height: 28px;
+    border: 0;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #e6e4e4;
+    border-bottom: 1px solid #e6e4e4;
+}
+
+.service-open-success {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+}
+
+.so-success-inner {
+    width: 600px;
+    height: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 21;
+}
+
+.so-success-close.icon {
+    width: 42px;
+    height: 42px;
+    font-size: 60px;
+    color: #e6e4e4;
+    font-weight: 100;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.so-success-title {
+    font-size: 18px;
+    color: #333;
+    padding: 15px 20px;
+}
+
+.so-success-des {
+    font-size: 16px;
+    color: #a5a1a1;
+    padding: 10px 20px;
+}
+
+.so-success-btn {
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.so-success-btn a {
+    width: 70px;
+    height: 38px;
+    font-size: 16px;
+}
+
+.so-success-btn a+a {
+    margin-left: 16px;
+}
+
+.so-success-jump.btn {
+    background-color: #389bd9;
+}
+
+.so-success-close.btn {
+    background-color: #a5a1a1;
+}
+
+.product-minus,
+.product-add {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}

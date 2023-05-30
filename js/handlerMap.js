@@ -151,7 +151,7 @@ opacity: 0.2;margin-top: 10px;"></div>
 height: 1px;
 background: #C9EFF2;
 opacity: 0.2;margin-top: 10px;"></div>
-<div style="width:100%;text-align:center;margin-top:2px;font-size: 16px;
+<div style="width:100%;text-align:center;margin-top:15px;font-size: 16px;
 font-family: Microsoft YaHei;
 font-weight: 400;
 color: #C9EFF2;">
